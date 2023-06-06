@@ -1,7 +1,7 @@
-document.getElementById('corverter').onclick = ConversorTem;
-document.getElementById('limpar').onclick = limpafren;
+document.getElementById('corvert').onclick = TemConvert;
+document.getElementById('clean').onclick = CleanFrom;
 
-function ConversorTem(){
+function TemConvert(){
     var fahrenheit = document.getElementById("fahrenheit").value; 
     var celsius = document.getElementById("celsius").value; 
     
@@ -19,7 +19,7 @@ function ConversorTem(){
 }
  
 
-function limpafren(){
+function CleanFrom(){
     document.getElementById("fahrenheit").value = "";
-    document.getElementById("celcius").value = "";
+    document.getElementById("celsius").value = "";
 }
